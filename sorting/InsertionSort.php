@@ -9,7 +9,7 @@ function insertSort(array $arr): array {
     $count = count($arr);
     for ($i = 1; $i < $count; $i++) {
         for ($j = $i; $j >= 1 && $arr[$j] < $arr[$j-1]; $j--) {
-            [$arr[$j], $arr[$j-1]] = [$arr[$j-1], $arr[$j]];
+            list($arr[$j], $arr[$j-1]) = array($arr[$j-1], $arr[$j]);
         }
     }
 
