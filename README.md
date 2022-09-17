@@ -13,12 +13,12 @@ Algorithm for removing an element from a data structure.<br>
 <strong>Algorithm Characteristics</strong><br>
 Not all procedures can be called an algorithm. The algorithm must have the following characteristics:<br>
 
-Unambiguity. The algorithm must be clear and unambiguous. Each of its steps, as well as the input/output data, must be clear and result in only one value.<br>
-Input data. The algorithm must have well-defined inputs, but there may be no inputs.<br>
-Output. The algorithm must have well-defined outputs and be consistent with the desired output.<br>
-Limb. Algorithms must terminate after a finite number of steps.<br>
-Feasibility. Must be feasible with available resources.<br>
-Independence. The algorithm must have step-by-step instructions independent of any program code.<br>
+<strong>Unambiguity</strong>. The algorithm must be clear and unambiguous. Each of its steps, as well as the input/output data, must be clear and result in only one value.<br>
+<strong>Input data</strong>. The algorithm must have well-defined inputs, but there may be no inputs.<br>
+<strong>Output</strong>. The algorithm must have well-defined outputs and be consistent with the desired output.<br>
+<strong>Limb</strong>. Algorithms must terminate after a finite number of steps.<br>
+<strong>Feasibility</strong>. Must be feasible with available resources.<br>
+<strong>Independence</strong>. The algorithm must have step-by-step instructions independent of any program code.<br>
 
 <strong>Сортировка пузырьком / Bubble sort</strong><br>
 Сортировка пузырьком / Bubble sort
