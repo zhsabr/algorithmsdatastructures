@@ -10,6 +10,16 @@ Algorithm for inserting an element into a data structure.<br>
 Algorithm for changing an element present in the data structure.<br>
 Algorithm for removing an element from a data structure.<br>
 
+<strong>Algorithm Characteristics</strong><br>
+Not all procedures can be called an algorithm. The algorithm must have the following characteristics:<br>
+
+Unambiguity. The algorithm must be clear and unambiguous. Each of its steps, as well as the input/output data, must be clear and result in only one value.<br>
+Input data. The algorithm must have well-defined inputs, but there may be no inputs.<br>
+Output. The algorithm must have well-defined outputs and be consistent with the desired output.<br>
+Limb. Algorithms must terminate after a finite number of steps.<br>
+Feasibility. Must be feasible with available resources.<br>
+Independence. The algorithm must have step-by-step instructions independent of any program code.<br>
+
 <strong>Сортировка пузырьком / Bubble sort</strong><br>
 Сортировка пузырьком / Bubble sort
 Или сортировка простыми обменами. Обходим массив от начала до конца, попутно меняя местами неотсортированные соседние элементы. 
