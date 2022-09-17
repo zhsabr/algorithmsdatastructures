@@ -1,7 +1,7 @@
-What is a Algorithm?
+<strong>What is a Algorithm?</strong><br>
 
 An algorithm is a step-by-step procedure that defines a set of instructions to be executed in one order or another to produce a desired result. Algorithms are usually created independently of the underlying programming languages, i.e. with the possibility of implementation in several languages.
-
+<br>
 
 <strong>Сортировка пузырьком / Bubble sort</strong><br>
 Сортировка пузырьком / Bubble sort
