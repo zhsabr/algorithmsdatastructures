@@ -5,7 +5,7 @@
  * Average O(n logn)
  * Best  O(n logn)
  */
-function quick(array $arr) : array {
+function quickSort(array $arr) : array {
     if (count($arr) < 2) {
         return $arr;
     }
@@ -29,5 +29,6 @@ function quick(array $arr) : array {
     return array_merge(quick($less_arr), [$arr[$pivot]], quick($more_arr));
 }
 
-
-print_r(quick([3, 4, 1, 2, 5, 9, 6, 7, 8]));
+$array = [3, 4, 1, 2, 5, 9, 6, 7, 8];
+$array = quickSort($array);
+print_r($array);

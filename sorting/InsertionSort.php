@@ -16,4 +16,6 @@ function insertSort(array $arr): array {
     return $arr;
 }
 
-print_r(insertSort([3,4,1,2,5,9,6,7,8]));
+$array = [3,4,1,2,5,9,6,7,8];
+$array = insertSort($array);
+print_r($array);
