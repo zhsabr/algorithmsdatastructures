@@ -27,4 +27,5 @@ function selectionSort(array $arr): array
 }
 
 $array = [4,3,1,2,5,9,6,7,8];
-print_r(selectionSort($array));
+$array = selectionSort($array);
+print_r($array);

@@ -23,4 +23,6 @@ function bubbleSort(array $array): array {
     return $array;
 }
 
-print_r(bubbleSort([5, 25, 10, 7, 6, 20, 21, 1, 2, 13]));
+$array = [5, 25, 10, 7, 6, 20, 21, 1, 2, 13];
+$array = bubbleSort($array);
+print_r($array);
